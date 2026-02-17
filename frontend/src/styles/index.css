@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+}
+.card {
+  @apply bg-slate-900 border border-slate-800 rounded-xl p-4;
+}
+.input {
+  @apply w-full rounded-lg border border-slate-700 bg-slate-950 p-2 text-slate-100;
+}
+.btn {
+  @apply rounded-lg px-4 py-2 font-medium;
+}
